@@ -1,1 +1,171 @@
 /* место для вашего кода */
+body {
+    width: 1440px;
+    margin: 0 auto;
+    /* background-color: #000000; */
+}
+
+p, address {
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 92px 49px 92px 51px;
+    background-color: #FFF;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.header__links-list-item {;
+    font-size: 18px;
+}
+
+.header__links-list {
+    display: flex;
+    gap: 33px;
+    list-style: circle;
+}
+
+/*Хотел сделать так, гугл помог сделать иначе, сделал через text-underline-offset*/
+/* .header__links-list-underline {
+    margin-top: 1px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid black;
+} */
+
+.header__link_active {
+    text-decoration: none;
+}
+
+.header__links-list-item_no-bullit {
+    list-style: none;
+}
+
+.header__link {
+    text-underline-offset: 4px;
+}
+
+.header__logo {
+    width: 148px;
+    height: 105px;
+    margin: 0 345px 4px 209px;
+}
+
+.header__logo-image {
+    width: 92%;
+}
+
+.header__address {
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    flex-wrap: nowrap;
+    margin: 3px 0 7px 0;
+    width: 240px;
+    height: 97px;
+}
+
+.text-link {
+    text-underline-offset: 5px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+/*Хотел сделать так, гугл помог сделать иначе, сделал через text-underline-offset*/
+/* .text-link-underline {
+    margin-top: 1px;
+    border-bottom: 1px solid black;
+} */
+
+.header__address p {
+    font-size: 18px;
+    line-height: 24.3px;
+}
+
+.cover {
+
+    background-image: url('/images/cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6)
+}
+
+.cover__title {
+    display: grid;
+    gap: 21px;
+    padding: 164px 50px 134px;
+    color:#FFF;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 115px;
+    text-transform: uppercase;
+}
+
+.accent-span {
+    letter-spacing: 30px;
+}
+
+.aligned-text {
+    letter-spacing: 60px;
+}
+
+.aligned-text_center {
+    text-align: center;
+    line-height: 100px;
+}
+
+.aligned-text_right {
+    text-align: right;
+    line-height: 100px;
+}
+
+.accent-span-zero {
+    letter-spacing: 0;
+}
+
+.cover__description {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 40px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+}
+
+.cover__description-text {
+    display: flex;
+    justify-content: space-between; 
+    color: rgb( 255, 255, 255);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: 0.1px;
+    word-spacing: 17px;
+}
+
+.bet-button {
+    background-color: transparent;
+}
+
+.button__link {
+    color: rgb( 255, 255, 255);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 12px 32px;
+    text-decoration: none; 
+    border: 1px solid rgb( 255, 255, 255, 0.6);
+}
